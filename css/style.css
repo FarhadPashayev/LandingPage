@@ -21,6 +21,8 @@ a {
     padding: 10px 0;
     background-color: #155bd5;
     height: 74px;
+    position: fixed;
+    width: 1903px;
 }
 
 #header .container {
@@ -51,9 +53,7 @@ a {
     padding: 0 20px;
 }
 
-#main {
-    background-color: #155bd5;
-}
+
 
 #main .container {
     display: flex
@@ -74,6 +74,15 @@ margin-top: 30px;
 opacity: .7;
 
 }
+
+h6{
+    font-size: 18px;
+}
+
+h2{
+    margin-top: 20px;
+    font-size: 36px ;
+}
 .started{
     display: flex;
     align-items: center;
@@ -89,8 +98,6 @@ opacity: .7;
     border-radius: 4px;
     background-color: #fff;
     color: #155bd1 ;
-
-
 }
 
 #main .container .dividers {
@@ -126,4 +133,105 @@ opacity: .7;
 .text{
     color: #fff;
     margin-left: 16px;
+}
+
+.story{
+    background-color: #fafafa; 
+    
+}
+.hero{
+    background-color: #155bd5;
+}
+
+.story .container{
+    display: flex;
+   padding-top: 100px;
+}
+
+.text_items{
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.text_area p{
+    color: black;
+}
+
+.button_area{
+    margin-top: 30px;
+}
+
+.button_area-third{
+    background-color: #efefef;
+    display: block;
+    height: 73px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+h6 .custom_line{
+width: 1px;
+height: 5px;
+background-color:black !important;
+}
+
+.area{
+    font-size: 16px;
+    width: 131px;
+    height: 44px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 20px;
+    background-color: #fff;
+}
+.area_color{
+    background-color: #155bd1;
+    color: #fff;
+}
+
+.services_box{
+    width: 450px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    
+
+}
+
+.services_box-title{
+    margin: 15px 0;
+}
+
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid blue ;
+    display: inline-block;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 16px;
+}
+
+.services_box-description{
+    color: black;
+    
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap:wrap ;
+    padding: 50px;
+}
+
+.best_services{
+    display: flex;
+    justify-content: center;
+    
 }
